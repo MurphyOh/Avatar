@@ -1,0 +1,27 @@
+/* Water.css */
+.water {
+  text-align: center;
+  padding: 20px;
+  background-color: #4eb3d3;
+  border-radius: 10px;
+}
+
+.water button {
+  background-color: #0d74a8;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.water button:hover {
+  background-color: #1592c6;
+}
+
+.water button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

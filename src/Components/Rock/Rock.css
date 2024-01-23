@@ -1,0 +1,22 @@
+  .rock {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 1px;
+    transition: transform 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  }
+
+  .rock img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-height: 100%;
+    display: block;
+  }
+
+  .rock:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }

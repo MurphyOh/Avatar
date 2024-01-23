@@ -1,0 +1,32 @@
+/* Air.css */
+.air {
+  text-align: center;
+  padding: 20px;
+  background-color: #82c4e6;
+  /* Light blue background color */
+  border-radius: 10px;
+}
+
+.air button {
+  background-color: #0077b6;
+  /* Dark blue button background color */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Smooth background color transition */
+}
+
+.air button:hover {
+  background-color: #2196f3;
+  /* Lighter blue on hover */
+}
+
+.air button:disabled {
+  background-color: #ccc;
+  /* Gray for disabled button */
+  cursor: not-allowed;
+}
